@@ -39,9 +39,9 @@ Please send your pull request to the [`testing` branch](https://github.com/YunoH
 To try the `testing` branch, please proceed like that:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/misskey_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/ML-Astra/misskey_ynh_fix/tree/testing --debug
 or
-sudo yunohost app upgrade misskey -u https://github.com/YunoHost-Apps/misskey_ynh/tree/testing --debug
+sudo yunohost app upgrade misskey -u https://github.com/ML-Astra/misskey_ynh_fix/tree/testing --debug
 ```
 
 **More info regarding app packaging:** <https://yunohost.org/packaging_apps>
