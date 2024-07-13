@@ -14,6 +14,7 @@ HOME=$install_dir
 misskey_build() {
     pushd "$install_dir"
         git config --system --add safe.directory $install_dir
+        git config --system --add safe.directory $install_dir/*
         ynh_use_nodejs
         git submodule update --init --force
         corepack enable
