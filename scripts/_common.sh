@@ -17,8 +17,8 @@ misskey_build() {
         corepack enable
         #corepack prepare pnpm@9.5.0 --activate
         ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" pnpm install
-        ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" pnpm install fluent-emoji -w
-        ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" pnpm run build-assets
+        #ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" pnpm install fluent-emoji -w
+        #ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" pnpm run build-assets
         ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" pnpm run build
         ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" pnpm run init
     popd
